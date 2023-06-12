@@ -1,0 +1,2 @@
+#!/bin/bash
+tail -n +2 | cut -f 1 I sort -k 1 | unig -c I sort -rnk 1 | head -n 11 I rev | cut -d ‘ ’ -f 1 | rev
